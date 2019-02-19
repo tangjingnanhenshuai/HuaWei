@@ -1,12 +1,13 @@
 <template>
   <div class="appSon">
-    <div class="con">
 
       <div class="headero">
         <hw-jx-headero></hw-jx-headero>
       </div>
-      <hw-jx-section :data="data"></hw-jx-section>
-    </div>
+
+      <div class="con">
+        <hw-jx-section :data="data"></hw-jx-section>
+      </div>
 
     <div class="evaluatess">
       <a href="javascript:void(0)">免费估价</a>
@@ -51,11 +52,13 @@
   .appSon{
     height: 100%;
     display: flex;
+    background: #ffffff;
     flex-direction: column;
   }
 .headero{
   width: 100%;
   border-bottom: 1px solid #ebebeb;
+  background: #ffffff;
 }
 .evaluatess{
   width: 90%;

@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "dependencies": "0.0.1",
     "element-ui": "^2.5.4",
     "jquery": "^3.3.1",
     "mint-ui": "^2.2.13",

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="ap" @click="go" ><i class="iconfont icon-youjiantou" ></i></p>
+    <p class="ap" @click="go" ><img src="../../assets/img/yjt.gif" alt=""></p>
     <p>华为商城以旧换新</p>
     <p class="ap" href="javascript:void(0)"></p>
   </div>
@@ -25,7 +25,7 @@
     height: .5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
   }
 .ap{
   width:5%;

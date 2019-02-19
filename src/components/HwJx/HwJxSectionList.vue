@@ -27,6 +27,8 @@
     flex-shrink: 0;
     flex-wrap: nowrap;
     margin-right: .1rem;
+
+    box-shadow: 0 4px 14px 0 rgba(207,213,215,.3);
   }
 li{
   width: 100%;
