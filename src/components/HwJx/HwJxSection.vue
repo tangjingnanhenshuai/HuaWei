@@ -156,7 +156,7 @@
 }
 .search{
   display: block; width: 100%; height: .3rem;
-  background: #f8f8f8; border-radius: 15px; border: none;
+  background: #f8f8f8; border-radius: 15px;
   color: #777777; text-align: center; font-size: .12rem;
   position: relative; line-height: .3rem;
 }
@@ -269,6 +269,7 @@
     width: 50%;
     height: 2rem;
     padding-left: .1rem;
+    box-shadow: 0 0.04rem 0.14rem 0 rgba(207,213,215,.3);
   }
 .recycle_l h4{
   font-size: .2rem;
@@ -307,6 +308,7 @@
     width: 100%;
     height: 48%;
     display: flex;
+    box-shadow: 0 0.04rem 0.14rem 0 rgba(207,213,215,.3);
   }
 .recycle_r_t .recycle_r_t_le{
   width: 50%;
